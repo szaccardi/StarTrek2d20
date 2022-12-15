@@ -20,7 +20,7 @@ export class SelectionPage extends React.Component<IPageProperties, {}> {
         return (
             <div className="page">
                 <div className="page-text">
-                    Select tool.
+                    Test tool.
                 </div>
                 <div className="button-container">
                     <Button text="Characters & Starships" className="button" onClick={() => { this.selectTool(Tool.CharacterGenerator); }} />
